@@ -1,16 +1,16 @@
 ﻿using System;
 
-namespace Module3_Shipelenko
+namespace HWModule3
 {
     class Module3
     {
         public static void Module3Run()
         {
-            Task32.Task32Run();
-            Task33.Task33Run();
-            Task34.Task34Run();
-            Task36.Task36Run();
-            Task37.Task37Run();
+            Task2.Task2Run();
+            Task3.Task3Run();
+            Task4.Task4Run();
+            Task6.Task6Run();
+            Task7.Task7Run();
             FinalPractice.FinalPracticeRun();
         }
     }

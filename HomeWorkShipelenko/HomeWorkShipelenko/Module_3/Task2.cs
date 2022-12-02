@@ -1,9 +1,9 @@
 ﻿using System;
-namespace Module3_Shipelenko
+namespace HWModule3
 {
-	class Task32
+	class Task2
 	{
-        public static void Task32Run()
+        public static void Task2Run()
         {
             const string myName = "Timofey";
 

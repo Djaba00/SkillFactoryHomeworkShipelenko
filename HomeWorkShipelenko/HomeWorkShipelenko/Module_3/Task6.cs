@@ -1,9 +1,9 @@
 ﻿using System;
-namespace Module3_Shipelenko
+namespace HWModule3
 {
-	public class Task36
+	public class Task6
 	{
-        public static void Task36Run()
+        public static void Task6Run()
         {
             Console.WriteLine("\n\t\t Задание 3.6");
 

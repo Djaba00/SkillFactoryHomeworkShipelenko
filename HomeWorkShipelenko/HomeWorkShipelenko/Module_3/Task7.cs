@@ -1,7 +1,7 @@
 ﻿using System;
-namespace Module3_Shipelenko
+namespace HWModule3
 {
-	public class Task37
+	public class Task7
 	{
         enum DaysOfWeek //либо можно использовать системный список DayOfWeek, в котором Sunday = 0 
         {
@@ -14,13 +14,15 @@ namespace Module3_Shipelenko
             Sunday,
         }
 
-        public static void Task37Run()
+        public static void Task7Run()
         {
             Console.WriteLine("\n\t\t Задание 3.7");
 
             Console.Write("Enter your name: ");
             string name = Console.ReadLine();
             Console.Write("Enter your age: ");
+
+
 
             byte age = (byte)int.Parse(Console.ReadLine());
             Console.WriteLine("Your name is {0} and age is {1} ", name, age);

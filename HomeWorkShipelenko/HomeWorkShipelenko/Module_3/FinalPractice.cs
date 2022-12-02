@@ -1,5 +1,5 @@
 ﻿using System;
-namespace Module3_Shipelenko
+namespace HWModule3
 {
 	public class FinalPractice
     {

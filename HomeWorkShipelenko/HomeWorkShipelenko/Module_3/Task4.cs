@@ -1,7 +1,7 @@
 ﻿using System;
-namespace Module3_Shipelenko
+namespace HWModule3
 {
-	public class Task34
+	public class Task4
 	{
         enum Semaphore
         {
@@ -9,7 +9,7 @@ namespace Module3_Shipelenko
             Yellow = 200,
             Green = 300,
         }
-        public static void Task34Run()
+        public static void Task4Run()
         {
 
             Console.WriteLine("\n\t\t Задание 3.4");

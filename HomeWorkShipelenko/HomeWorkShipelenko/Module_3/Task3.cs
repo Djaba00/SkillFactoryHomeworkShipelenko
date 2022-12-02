@@ -1,9 +1,9 @@
 ﻿using System;
-namespace Module3_Shipelenko
+namespace HWModule3
 {
-	class Task33
+	class Task3
 	{
-        public static void Task33Run()
+        public static void Task3Run()
         {
             string myName = "Timofey";
             byte age = 22;

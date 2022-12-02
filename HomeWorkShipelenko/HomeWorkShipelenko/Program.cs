@@ -1,13 +1,17 @@
-﻿using System.Reflection;
+﻿using System;
 
-namespace Module3_Shipelenko
+namespace ShipelenkoHW
 {
     class Program
     {
         public static void Main()
         {
-            Module3.Module3Run();
+            //Console.WriteLine("Выберите номер модуля \nДоступные модули: #3");
+            //int runModule = int.Parse(Console.ReadLine());
 
+            //if (runModule == 3)
+            //    HWModule3.Module3.Module3Run();
+            HWModule4.Task1.Task1Run();
         }
     }
 }
