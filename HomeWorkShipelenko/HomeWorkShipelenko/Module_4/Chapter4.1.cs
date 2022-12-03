@@ -4,7 +4,7 @@ namespace HWModule4
 {
 	public class Chapter1
 	{
-        public static void Task1Run()
+        public static void Chapter1Run()
 		{
 			Task11();
 			Task12();
