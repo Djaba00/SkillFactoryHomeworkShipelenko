@@ -11,7 +11,8 @@ namespace ShipelenkoHW
 
             //if (runModule == 3)
             //    HWModule3.Module3.Module3Run();
-            HWModule4.Task1.Task1Run();
+
+            HWModule4.Module4.Module4Run();
         }
     }
 }

@@ -1,7 +1,7 @@
 ﻿using System;
 namespace HWModule3
 {
-	public class Task7
+	public class Chapter7
 	{
         enum DaysOfWeek //либо можно использовать системный список DayOfWeek, в котором Sunday = 0 
         {

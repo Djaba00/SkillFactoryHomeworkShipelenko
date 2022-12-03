@@ -2,7 +2,7 @@
 
 namespace HWModule4
 {
-	public class Task1
+	public class Chapter1
 	{
         public static void Task1Run()
 		{
@@ -21,24 +21,24 @@ namespace HWModule4
 			Console.WriteLine(c);
 		}
 
-        public static void Task12()
-        {
-            int a = 5;
-            int b = 6;
+		public static void Task12()
+		{
+			int a = 5;
+			int b = 6;
 			double x = 2.6;
 			double y = 1.5;
 
 			bool c = (a < b) || (x > y);
 
-            Console.WriteLine(c);
-        }
+			Console.WriteLine(c);
+		}
 
-		public static void Task13()
+        public static void Task13()
 		{
-			ConsoleColor currentB = Console.BackgroundColor;
-			ConsoleColor currentF = Console.ForegroundColor;
+            ConsoleColor currentB = Console.BackgroundColor;
+            ConsoleColor currentF = Console.ForegroundColor;
 
-			Console.WriteLine("Напиши свой любимый цвет на английском с маленькой буквы");
+            Console.WriteLine("Напиши свой любимый цвет на английском с маленькой буквы");
 
             var color = Console.ReadLine();
 			if (color == "red")
@@ -62,9 +62,10 @@ namespace HWModule4
 
 				Console.WriteLine("Your color is cyan!");
 			}
-			Console.BackgroundColor = currentB;
-			Console.ForegroundColor = currentF;
-		}
+
+            Console.BackgroundColor = currentB;
+            Console.ForegroundColor = currentF;
+        }
 
 		public static void Task14()
 		{

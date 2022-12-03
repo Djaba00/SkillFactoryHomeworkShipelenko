@@ -1,7 +1,7 @@
 ﻿using System;
 namespace HWModule3
 {
-	public class Task6
+	public class Chapter6
 	{
         public static void Task6Run()
         {

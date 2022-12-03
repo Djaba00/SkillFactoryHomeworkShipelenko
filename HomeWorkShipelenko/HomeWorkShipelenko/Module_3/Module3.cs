@@ -6,11 +6,11 @@ namespace HWModule3
     {
         public static void Module3Run()
         {
-            Task2.Task2Run();
-            Task3.Task3Run();
-            Task4.Task4Run();
-            Task6.Task6Run();
-            Task7.Task7Run();
+            Chapter2.Task2Run();
+            Chapter3.Task3Run();
+            Chapter4.Task4Run();
+            Chapter6.Task6Run();
+            Chapter7.Task7Run();
             FinalPractice.FinalPracticeRun();
         }
     }

@@ -1,7 +1,7 @@
 ﻿using System;
 namespace HWModule3
 {
-	public class Task4
+	public class Chapter4
 	{
         enum Semaphore
         {
