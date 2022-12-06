@@ -55,6 +55,8 @@ namespace HWModule4
             }
             Console.BackgroundColor = currentB;
             Console.ForegroundColor = currentF;
+
+            Console.ReadKey();
         }
 
         public static void Task2()
@@ -104,6 +106,8 @@ namespace HWModule4
             }
             Console.BackgroundColor = currentB;
             Console.ForegroundColor = currentF;
+
+            Console.ReadKey();
         }
 
         public static void Task3()
@@ -155,6 +159,8 @@ namespace HWModule4
             
             Console.BackgroundColor = currentB;
             Console.ForegroundColor = currentF;
+
+            Console.ReadKey();
         }
 
         public static void Task4()
@@ -246,6 +252,8 @@ namespace HWModule4
 
             Console.BackgroundColor = currentB;
             Console.ForegroundColor = currentF;
+
+            Console.ReadKey();
         }
 
         public static void Task5()
@@ -300,8 +308,10 @@ namespace HWModule4
 
                 k++;
             }
-            //Console.BackgroundColor = currentB;
-            //Console.ForegroundColor = currentF;
+            Console.BackgroundColor = currentB;
+            Console.ForegroundColor = currentF;
+
+            Console.ReadKey();
         }
     }
 }

@@ -19,7 +19,9 @@ namespace HWModule4
 			bool c = a != b;
 
 			Console.WriteLine(c);
-		}
+
+            Console.ReadKey();
+        }
 
 		public static void Task12()
 		{
@@ -31,7 +33,9 @@ namespace HWModule4
 			bool c = (a < b) || (x > y);
 
 			Console.WriteLine(c);
-		}
+
+            Console.ReadKey();
+        }
 
         public static void Task13()
 		{
@@ -65,6 +69,8 @@ namespace HWModule4
 
             Console.BackgroundColor = currentB;
             Console.ForegroundColor = currentF;
+
+            Console.ReadKey();
         }
 
 		public static void Task14()
@@ -106,6 +112,8 @@ namespace HWModule4
 				}
             Console.BackgroundColor = currentB;
             Console.ForegroundColor = currentF;
+
+            Console.ReadKey();
         }
     }
 }

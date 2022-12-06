@@ -9,6 +9,8 @@
 
   <ItemGroup>
     <None Remove="Module_4\" />
+    <None Remove="Module_3\Chapter3" />
+    <None Remove="Module_4\Chapter4.4.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Module_4\" />
