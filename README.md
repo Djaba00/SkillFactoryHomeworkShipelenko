@@ -1,1 +1,3 @@
-# SkillFactoryHomeworkShipelenko
+# Проект создан для выполнения заданий курса C# Developer от SkillFactory.
+
+## Выполнил студент группы CDEV-25 Шипеленко Тимофей.
