@@ -20,6 +20,7 @@ namespace HWModule4
 
 			Console.WriteLine(c);
 
+            Console.WriteLine("\nPress Enter to check next task...");
             Console.ReadKey();
         }
 
@@ -33,6 +34,8 @@ namespace HWModule4
 			bool c = (a < b) || (x > y);
 
 			Console.WriteLine(c);
+
+            Console.WriteLine("\nPress Enter to check next task...");
 
             Console.ReadKey();
         }
@@ -70,6 +73,7 @@ namespace HWModule4
             Console.BackgroundColor = currentB;
             Console.ForegroundColor = currentF;
 
+            Console.WriteLine("\nPress Enter to check next task...");
             Console.ReadKey();
         }
 
@@ -113,6 +117,7 @@ namespace HWModule4
             Console.BackgroundColor = currentB;
             Console.ForegroundColor = currentF;
 
+            Console.WriteLine("\nPress Enter to check next chapter...");
             Console.ReadKey();
         }
     }

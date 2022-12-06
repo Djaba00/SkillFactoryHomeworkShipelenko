@@ -21,11 +21,13 @@ namespace HWModule4
             Console.Write("Напишите ваше имя: ");
             anketa.name = Console.ReadLine();
             Console.Write("Напишите ваш возраст: ");
+
             anketa.age = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("Ваше имя: {0}", anketa.name);
             Console.WriteLine("Ваш возраст: {0}", anketa.age);
 
+            Console.WriteLine("\nPress Enter to check next task...");
             Console.ReadKey();
         }
 
@@ -46,6 +48,7 @@ namespace HWModule4
             Console.WriteLine("Ваше имя: {0}", name);
             Console.WriteLine("Ваш возраст: {0}", age);
 
+            Console.WriteLine("\nPress Enter to check next task...");
             Console.ReadKey();
         }
 
@@ -67,6 +70,7 @@ namespace HWModule4
 
             Console.WriteLine("\t\tИнформация о питомце\nИмя: {0}\nТип: {1}\nВозраст: {2}\nДлина имени: {3}", pet.Name, pet.Type, pet.Age, pet.NameCount);
 
+            Console.WriteLine("\nPress Enter to check next chapter...");
             Console.ReadKey();
         }
     }

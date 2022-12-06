@@ -67,6 +67,7 @@ namespace HWModule4
             Console.BackgroundColor = currentB;
             Console.ForegroundColor = currentF;
 
+            Console.WriteLine("\nPress Enter to check next task...");
             Console.ReadKey();
         }
 
@@ -94,6 +95,7 @@ namespace HWModule4
 
             Console.WriteLine();
 
+            Console.WriteLine("\nPress Enter to check next task...");
             Console.ReadKey();
         }
 
@@ -107,6 +109,7 @@ namespace HWModule4
             }
             Console.WriteLine();
 
+            Console.WriteLine("\nPress Enter to check next task...");
             Console.ReadKey();
         }
 
@@ -123,6 +126,7 @@ namespace HWModule4
                 Console.WriteLine();
             }
 
+            Console.WriteLine("\nPress Enter to check next task...");
             Console.ReadKey();
         }
 
@@ -153,6 +157,7 @@ namespace HWModule4
             }
             Console.WriteLine();
 
+            Console.WriteLine("\nPress Enter to check next task...");
             Console.ReadKey();
         }
 
@@ -171,6 +176,7 @@ namespace HWModule4
 
             Console.WriteLine(sum);
 
+            Console.WriteLine("\nPress Enter to check next task...");
             Console.ReadKey();
         }
 
@@ -192,6 +198,7 @@ namespace HWModule4
             }
             Console.WriteLine();
 
+            Console.WriteLine("\nPress Enter to check next task...");
             Console.ReadKey();
         }
 
@@ -221,6 +228,7 @@ namespace HWModule4
             }
             Console.WriteLine("Колличество положительных чисел в массиве: {0}", positivenumbs);
 
+            Console.WriteLine("\nPress Enter to check next task...");
             Console.ReadKey();
         }
 
@@ -251,6 +259,7 @@ namespace HWModule4
             }
             Console.WriteLine("Колличество положительных чисел в массиве: {0}", positivenumbs);
 
+            Console.WriteLine("\nPress Enter to check next task...");
             Console.ReadKey();
         }
 
@@ -294,6 +303,9 @@ namespace HWModule4
                 }
                 Console.WriteLine();
             }
+
+            Console.WriteLine("\nPress Enter to check next chapter...");
+            Console.ReadKey();
         }
     }
 }
