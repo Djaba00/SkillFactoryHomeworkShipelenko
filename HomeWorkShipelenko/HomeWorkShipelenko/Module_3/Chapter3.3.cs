@@ -18,7 +18,7 @@ namespace HWModule3
             Console.WriteLine("IntMax: {0}", int.MaxValue);
             Console.WriteLine("IntMin: {0}", int.MinValue);
 
-            Console.WriteLine("\nPress Enter to check next task...");
+            Console.WriteLine("\nPress Enter to check next chapter...");
 
             Console.ReadKey();
         }

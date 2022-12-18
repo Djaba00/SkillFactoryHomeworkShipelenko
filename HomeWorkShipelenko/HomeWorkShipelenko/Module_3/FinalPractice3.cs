@@ -1,9 +1,9 @@
 ﻿using System;
 namespace HWModule3
 {
-	public class FinalPractice
+	public class Module3FinalPractice
     {
-        public static void FinalPracticeRun()
+        public static void Module3FinalPracticeRun()
         {
             Console.WriteLine("\n\t\t «Анкетируем пользователей» ");
 
@@ -18,7 +18,7 @@ namespace HWModule3
 
             Console.WriteLine("\nДанные о проверяющем: \n\nИмя:{0} \nВозраст: {1} \nДата Рождения {2}", chName, chAge, chBirthDate);
 
-            Console.WriteLine("\n Спасибо за внимание, для завершения нажмите на любую клавишу:)");
+            Console.WriteLine("\n Модуль 3 завершен! Спасибо за внимание:) \nPress any key to continue...");
 
             Console.ReadKey();
         }

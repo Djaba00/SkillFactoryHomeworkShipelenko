@@ -9,6 +9,9 @@ namespace HWModule3
             Yellow = 200,
             Green = 300,
         }
+
+        // Задание 3.4
+
         public static void Task4Run()
         {
 
@@ -18,7 +21,7 @@ namespace HWModule3
             Console.WriteLine(Semaphore.Yellow);
             Console.WriteLine(Semaphore.Green);
 
-            Console.WriteLine("\nPress Enter to check next task...");
+            Console.WriteLine("\nPress Enter to check next chapter...");
 
             Console.ReadKey();
         }

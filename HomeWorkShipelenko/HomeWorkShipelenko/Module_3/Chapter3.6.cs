@@ -11,7 +11,7 @@ namespace HWModule3
 
             Console.WriteLine("5 / 2 = {0}", result);
 
-            Console.WriteLine("\nPress Enter to check next task...");
+            Console.WriteLine("\nPress Enter to check next chapter...");
 
             Console.ReadKey();
         }

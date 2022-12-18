@@ -2,9 +2,9 @@
 
 namespace HWModule4
 {
-	public class Module4Practice
+	public class FinalPractice4
 	{
-		public static void Module4PracticeRun()
+		public static void FinalPractice4Run()
 		{
             Registration();
         }
