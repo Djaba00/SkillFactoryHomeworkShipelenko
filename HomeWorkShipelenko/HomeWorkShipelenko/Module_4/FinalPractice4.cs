@@ -53,14 +53,16 @@ namespace HWModule4
                 UserID[x] = User;
             }
 
-            Console.WriteLine("Регичтрация {0} пользователй выполнена успешно!", newUsers);
+            Console.WriteLine("Региcтрация {0} пользователй выполнена успешно!", newUsers);
 
             Console.Write("Показать данные зарегистрированный пользователей? (да/нет) ");
             if (Console.ReadLine() == "да")
                 ShowDataNewUsers();
+
+
             else
             {
-                Console.WriteLine("Завершение программы...");
+                Console.WriteLine("\n Модуль 4 завершен! Спасибо за внимание:) \nPress any key to continue...");
                 Console.ReadKey();
             }
                 
@@ -71,13 +73,13 @@ namespace HWModule4
                     Console.WriteLine("\tПользователь #{0}\n", i + 1);
 
                     Console.WriteLine("Имя: {0}", UserID[i].Name);
-                    Console.WriteLine("Фамилия: {0}", UserID[i].Name);
-                    Console.WriteLine("Возраст: {0}", UserID[i].Name);
+                    Console.WriteLine("Фамилия: {0}", UserID[i].Surname);
+                    Console.WriteLine("Возраст: {0}", UserID[i].Age);
 
-                    Console.WriteLine("Логин: {0}", UserID[i].Name);
-                    Console.WriteLine("Длина логина: {0}", UserID[i].Name);
+                    Console.WriteLine("Логин: {0}", UserID[i].Login);
+                    Console.WriteLine("Длина логина: {0}", UserID[i].Logincount);
 
-                    Console.WriteLine("Питомец?: {0}", UserID[i].Name);
+                    Console.WriteLine("Питомец?: {0}", UserID[i].HasPet);
 
                     foreach(var color in UserID[i].FavColors)
                     {
@@ -87,7 +89,7 @@ namespace HWModule4
 
                     if (i == newUsers - 1)
                     {
-                        Console.WriteLine("Завершение программы...");
+                        Console.WriteLine("\n Модуль 4 завершен! Спасибо за внимание:) \nPress any key to continue...");
                         Console.ReadKey();
                     }
                     else continue;
