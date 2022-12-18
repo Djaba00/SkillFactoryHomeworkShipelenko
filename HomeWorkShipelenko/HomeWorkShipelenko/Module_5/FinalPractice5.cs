@@ -62,7 +62,7 @@ namespace HWModule5
             string editedName;
             Editing("Имя", Person.Name, out editedName);
 
-            // Фамилию
+            // Фамилия
             Console.Write("Введите вашу фамилию: ");
             Person.Surname = Console.ReadLine();
             string editedSurname;
